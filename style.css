@@ -568,3 +568,20 @@ ul, ol { list-style: none; }
     .final-cta h2 { font-size: 1.5rem; }
     .worries-answer { font-size: 1.1rem; }
 }
+
+/* ---------- OCからのメッセージ（料金の下） ---------- */
+.message {
+    max-width: 760px;
+    margin: 44px auto 0;
+    background: var(--bg);
+    border: 2px solid var(--gold-light);
+    border-radius: 16px;
+    padding: 30px 30px 26px;
+}
+.message h3 { text-align: center; color: var(--purple-dark); font-size: 1.35rem; margin-bottom: 16px; }
+.message p { margin-bottom: 12px; }
+.message-sign { text-align: right; font-family: var(--font-head); font-weight: 700; color: var(--purple); margin: 18px 0 0 !important; }
+@media (max-width: 600px) {
+    .message { padding: 24px 20px 20px; }
+    .message h3 { font-size: 1.2rem; }
+}
